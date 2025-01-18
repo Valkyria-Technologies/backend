@@ -11,6 +11,21 @@ gem "pg", "~> 1.1"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
+# dot env to access secret keys
+gem 'dotenv-rails', '~> 2.8.1'
+
+# For authentication
+gem 'devise', '~> 4.9.4'
+
+# For authorization
+gem 'pundit', '~> 2.4.0'
+
+# For Api calls whitelisting
+gem 'rack-cors', '~> 2.0.2'
+
+# In Gemfile
+gem 'devise-jwt'
+
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 # gem "jbuilder"
 
